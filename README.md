@@ -25,6 +25,8 @@ $ virtualenv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
+If you have more than 1 version of python (i.e. python 2.7 and python 3 installed) and 
+want to specify which Python version you can use `virtualenv --python=/usr/bin/python2.7 venv`.
 
 # Run
 ```
