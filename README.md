@@ -25,6 +25,8 @@ $ virtualenv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
+If you have more than 1 version of python (i.e. python 2.7 and python 3 installed) and 
+want to specify which Python version you can use `virtualenv --python=/usr/bin/python2.7 venv`.
 
 # Run
 ```
@@ -36,3 +38,5 @@ In the cli directory, the bash script is used to generate a session token
 since my AWS account is setup to enforce MFA and only allow resources
 with token session, I need to run `cli/aws-get-session.sh <token-code> <userid>`
 first (and follow the instruction to set the shell variables).
+
+Test Signing
