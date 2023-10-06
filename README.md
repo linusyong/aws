@@ -39,4 +39,4 @@ since my AWS account is setup to enforce MFA and only allow resources
 with token session, I need to run `cli/aws-get-session.sh <token-code> <userid>`
 first (and follow the instruction to set the shell variables).
 
-Test Signing
+Test No Signing
